@@ -1,4 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+import { NuxtConfig } from "@nuxt/types";
 
-})
+const config: NuxtConfig = {
+  css: ["~/assets/scss/main.scss"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+};
+
+export default config;

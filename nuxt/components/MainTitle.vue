@@ -1,0 +1,30 @@
+<script setup lang="ts">
+defineProps<{
+  msg: string;
+}>();
+</script>
+
+<template>
+  <div class="content-center">
+    <h1 class="text-gradient text-9xl">{{ msg }}</h1>
+  </div>
+</template>
+
+<style lang="scss">
+.content {
+  &-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.text-gradient {
+  display: inline-block;
+  background: -webkit-linear-gradient(45deg, #54d0ff, #9f92ff 20%, #ff7689 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>

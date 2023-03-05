@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtPage />
+    <FirstView />
   </div>
 </template>
