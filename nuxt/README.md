@@ -25,9 +25,8 @@
       - [型エイリアスを Export する](#型エイリアスを-export-する)
     - [Composition API の script setup 構文](#composition-api-の-script-setup-構文)
   - [スタイリング環境を整える（Tailwind \& Sass）](#スタイリング環境を整えるtailwind--sass)
-  - [Nuxt3 でテスト環境を構築する](#nuxt3-でテスト環境を構築する)
+  - [vitest \& test-utils でテスト環境を構築する](#vitest--test-utils-でテスト環境を構築する)
     - [テストコードの書き方](#テストコードの書き方)
-
 
 # Nuxt 3 Minimal Starter
 
@@ -151,7 +150,7 @@ yarn add -D sass
 1. 公式を参照
    https://tailwindcss.com/docs/guides/nuxtjs#3
 
-## Nuxt3 でテスト環境を構築する
+## vitest & test-utils でテスト環境を構築する
 
 1. package install
 
